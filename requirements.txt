@@ -1,0 +1,34 @@
+# Core dependencies for Python 3.10+ (REQUIRED - No API keys needed)
+
+faster-whisper>=1.0.0
+sounddevice>=0.4.6
+numpy>=1.24.0,<2.0.0
+scipy>=1.10.0,<1.12.0
+
+# Language detection
+langdetect>=1.0.9
+
+# Text-to-Speech - Coqui TTS (HIGH QUALITY, Python 3.9-3.11 only)
+TTS>=0.22.0
+
+# Audio processing
+pydub>=0.25.1
+librosa>=0.10.0
+
+# Utilities
+python-dotenv>=1.0.0
+colorama>=0.4.6
+
+# ==========================================
+# OPTIONAL DEPENDENCIES (No API key needed)
+# ==========================================
+# Uncomment the following lines to use local HuggingFace models (free, offline, no API key)
+# transformers>=4.36.0
+# torch>=2.1.0
+
+# ==========================================
+# OPTIONAL: API-based LLMs (Require API keys and payment)
+# ==========================================
+# Uncomment only if you have API keys and want to use these services
+# openai>=1.12.0
+# anthropic>=0.18.0
